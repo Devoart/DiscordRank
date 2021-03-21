@@ -14,7 +14,7 @@ This is a java libary for generate discord rank
 
 ```gradle
 	dependencies {
-	        implementation 'com.github.None-Of-Ever:DiscordRank:Tag'
+	        implementation 'com.github.None-Of-Ever:DiscordRank:1.0.001'
 	}
 ```
 
@@ -32,9 +32,9 @@ This is a java libary for generate discord rank
 
 ```
 	<dependency>
-	    <groupId>com.github.User</groupId>
-	    <artifactId>Repo</artifactId>
-	    <version>Tag</version>
+	    <groupId>com.github.None-Of-Ever</groupId>
+	    <artifactId>DiscordRank</artifactId>
+	    <version>1.0.001</version>
 	</dependency>
 ```
 
