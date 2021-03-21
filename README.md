@@ -13,7 +13,9 @@ This is a java libary for generate discord rank
 ```
 
 ```gradle
-		implementation 'com.github.None-Of-Ever:DiscordRank:1.0.0'
+	dependencies {
+	        implementation 'com.github.None-Of-Ever:DiscordRank:Tag'
+	}
 ```
 
 
