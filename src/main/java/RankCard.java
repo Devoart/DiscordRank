@@ -12,7 +12,7 @@ public class RankCard {
     public static ByteArrayOutputStream generateCard(String avatarUrl, String name, String serverPostion, String serverRankNumber, String level, String XP, int rankP,String status){
         BufferedImage originalImg = null;
         try {
-            originalImg  = ImageIO.read(new URL("https://media.discordapp.net/attachments/798073202303565825/822135862908420096/level_up_imageczdwad.png"));
+            originalImg  = ImageIO.read(new URL("https://media.discordapp.net/attachments/817335682283339781/822890104182931486/DiscordRank.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -25,16 +25,6 @@ public class RankCard {
 
         int width = originalImg.getWidth();
         int height = originalImg.getHeight();
-
-        Font customFont,customFont1;
-        try {
-            customFont = Font.createFont(Font.TRUETYPE_FONT, new File("C:\\Users\\GabWire Holdings\\Downloads\\Poppins-Italic.ttf")).deriveFont(30f);
-            customFont1 = Font.createFont(Font.TRUETYPE_FONT, new File("C:\\Users\\GabWire Holdings\\Downloads\\Poppins-Italic.ttf")).deriveFont(60f);
-        } catch (FontFormatException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 
         BufferedImage bim = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
         Graphics2D g2 = bim.createGraphics();
@@ -100,8 +90,9 @@ public class RankCard {
 
 
         ////progrss bar
+        g2.setColor(new Color(98, 98, 98));
         g2.fillRoundRect(782,24,35,230,20,20);
-        g2.setColor(new Color(132, 7, 197));
+        g2.setColor(new Color(255, 255, 255));
 
         int progressBarY = Integer.parseInt(String.valueOf(rankP));
         int progressBar = 0;
