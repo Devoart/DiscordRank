@@ -17,8 +17,7 @@ public class Main {
 
         CommandClient client = builder.setOwnerId("407195947093983232").build();
 
-        JDABuilder.createDefault("ODAxMzQwNzExOTg3NDQ1ODAw.YAfQsQ.XJLTXb1K5o7lBcS1M9UzjTT076o", GatewayIntent.GUILD_MESSAGES,GatewayIntent.GUILD_MEMBERS, GatewayIntent.GUILD_PRESENCES)
-//        JDABuilder.createDefault("ODIyMDUzMzkzNTkzMDA4MTY4.YFMq4g.M1-AvuXeGY3v4y1gEFeAra44Df0")
+        JDABuilder.createDefault("token", GatewayIntent.GUILD_MESSAGES,GatewayIntent.GUILD_MEMBERS, GatewayIntent.GUILD_PRESENCES)
                 .setMemberCachePolicy(MemberCachePolicy.ALL)
                 // ...
                 .addEventListeners(client) // Add the new CommandClient as a listener
