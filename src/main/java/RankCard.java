@@ -72,7 +72,7 @@ public class RankCard {
         Font rotatedFont = font.deriveFont(affineTransform);
 
         g2.setFont(new Font(Font.SANS_SERIF, Font.BOLD,40));
-        g2.setColor(new Color(132,7,197));
+        g2.setColor(new Color(255, 255, 255));
         g2.drawString("Level "+level, 600, 55);
         //level
 
