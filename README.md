@@ -1,8 +1,7 @@
 # DiscordRank
 This is a java libary for generate discord rank 
 
-[![Release](https://jitpack.io/v/None-Of-Ever/DiscordRank.svg)]
-(https://jitpack.io/#None-Of-Ever/DiscordRank)
+(https://jitpack.io/v/None-Of-Ever/DiscordRank.svg)
 
 ### Dependency
 ```gradle
